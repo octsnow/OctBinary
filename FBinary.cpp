@@ -26,6 +26,7 @@ bool checkFileExist(const string& filepath){
 
 FBinary::FBinary(vector<uint8_t> data) : m_data(data){
     this->setByteIndex(0);
+    this->setBitIndex(0);
 }
 
 FBinary::FBinary(const string filepath){
@@ -34,6 +35,7 @@ FBinary::FBinary(const string filepath){
 
 bool FBinary::loadFile(string filepath){
     ifstream ifs(filepath, ios::in | ios::binary);
+    ifs.unsetf(ios::skipws);
 
     if(!ifs){
         return false;
@@ -49,6 +51,8 @@ bool FBinary::loadFile(string filepath){
     buffer.reserve(filesize);
     buffer.insert(buffer.begin(), istream_iterator<uint8_t>(ifs), istream_iterator<uint8_t>());
 
+    ifs.close();
+
     this->setData(buffer);
     this->setByteIndex(0);
     this->setBitIndex(0);
@@ -58,35 +62,39 @@ bool FBinary::loadFile(string filepath){
 
 void FBinary::setData(vector<uint8_t> data){
     this->m_data = data;
-    this->setByteIndex(0);
     this->isEnd = false;
+}
+
+void FBinary::setCurrentBuffer(){
+    this->m_buffer = this->m_data[this->m_byteIndex];
 }
 
 void FBinary::setByteIndex(uint32_t idx){
     if(idx < this->m_data.size()){
         this->m_byteIndex = idx;
-        this->m_buffer = this->m_data[idx];
-        this->setBitIndex(0);
+        this->setCurrentBuffer();
     }
 }
 
 void FBinary::setBitIndex(uint32_t nbits){
-    if(nbits < sizeof(this->m_buffer) * 8){   // 8ビット
+    if(nbits < sizeof(this->m_buffer) * 8){
         this->m_bitIndex = nbits;
     }
 }
 
 void FBinary::setNextIndex(){
-    if(++this->m_byteIndex < this->m_data.size()){
-        this->m_buffer = this->m_data[this->m_byteIndex];
+    this->m_byteIndex++;
+    if(this->m_byteIndex < this->m_data.size()){
+        this->setCurrentBuffer();
     }else{
-        --this->m_byteIndex;
+        this->m_byteIndex--;
         this->isEnd = true;
     }
 }
 
 void FBinary::setNextBit(){
-    if(++this->m_bitIndex >= sizeof(this->m_buffer) * 8){   // 8ビット
+    this->m_bitIndex++;
+    if(this->m_bitIndex >= sizeof(this->m_buffer) * 8){
         this->setBitIndex(0);
         this->setNextIndex();
     }
@@ -179,3 +187,4 @@ void FBinary::printBit(bool lsb){
 bool FBinary::eod(){
     return this->isEnd;
 }
+
