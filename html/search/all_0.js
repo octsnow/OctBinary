@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['eod_0',['eod',['../class_f_binary.html#a2083123c744ab8253cf0ae9f6c1bc0f2',1,'FBinary']]]
+  ['eod_0',['eod',['../class_oct_binary.html#a3c9128984ec914de0761c77423fe2483',1,'OctBinary']]]
 ];

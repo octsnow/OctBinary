@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['printbit_0',['printBit',['../class_f_binary.html#a95ec9ff95903d6e3a96232da71c8f804',1,'FBinary']]]
+  ['printbit_0',['printBit',['../class_oct_binary.html#a5d82226cc42bc53802a6c1fa40fa35c7',1,'OctBinary']]]
 ];

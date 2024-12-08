@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['readbit_0',['readBit',['../class_f_binary.html#a50a0bb45b2900345034541ade73a6758',1,'FBinary']]],
-  ['readbits_1',['readBits',['../class_f_binary.html#a68d87fd5b918986bca67cf9542c2dc1e',1,'FBinary']]],
-  ['readbyte_2',['readByte',['../class_f_binary.html#aa14e038925731b8fb043e42807d35462',1,'FBinary']]],
-  ['readbytes_3',['readBytes',['../class_f_binary.html#ae3f0b1e5a442b7880caa08375a6e51f1',1,'FBinary']]]
+  ['readbit_0',['readBit',['../class_oct_binary.html#a0ade19cc117ea0992a74558c348ae13e',1,'OctBinary']]],
+  ['readbits_1',['readBits',['../class_oct_binary.html#a86b9fda427d2e7a30fde11f6bce68918',1,'OctBinary']]],
+  ['readbyte_2',['readByte',['../class_oct_binary.html#a5a296e9387f00d59d5428d1168e3fe3e',1,'OctBinary']]],
+  ['readbytes_3',['readBytes',['../class_oct_binary.html#a9e9b3ebdc1e5aa1a3b2d4dbe54e562c0',1,'OctBinary']]]
 ];

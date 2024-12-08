@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['loadfile_0',['loadFile',['../class_f_binary.html#a5f27987c974b779e9263725ce9daf367',1,'FBinary']]]
+  ['octbinary_0',['OctBinary',['../class_oct_binary.html',1,'OctBinary'],['../class_oct_binary.html#a5861ca49ba96d2544fa11fb3bcc2b2a9',1,'OctBinary::OctBinary()']]]
 ];

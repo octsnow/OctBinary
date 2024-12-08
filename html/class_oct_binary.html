@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.10.0"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: FBinary Class Reference</title>
+<title>OctBinary: OctBinary Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -23,7 +23,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">OctBinary
    </div>
   </td>
  </tr>
@@ -73,82 +73,84 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="class_f_binary-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">FBinary Class Reference</div></div>
+<a href="class_oct_binary-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">OctBinary Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2a5cc339af85feb1746408d354da8667" id="r_a2a5cc339af85feb1746408d354da8667"><td class="memItemLeft" align="right" valign="top"><a id="a2a5cc339af85feb1746408d354da8667" name="a2a5cc339af85feb1746408d354da8667"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>FBinary</b> ()</td></tr>
-<tr class="memdesc:a2a5cc339af85feb1746408d354da8667"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
-<tr class="separator:a2a5cc339af85feb1746408d354da8667"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3873f2e06d6bcf1a7772bda1e1deea4e" id="r_a3873f2e06d6bcf1a7772bda1e1deea4e"><td class="memItemLeft" align="right" valign="top"><a id="a3873f2e06d6bcf1a7772bda1e1deea4e" name="a3873f2e06d6bcf1a7772bda1e1deea4e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>FBinary</b> (std::vector&lt; uint8_t &gt; data)</td></tr>
-<tr class="memdesc:a3873f2e06d6bcf1a7772bda1e1deea4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
-<tr class="separator:a3873f2e06d6bcf1a7772bda1e1deea4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bd39ee023bfb2f332c13cbf4d6e6585" id="r_a4bd39ee023bfb2f332c13cbf4d6e6585"><td class="memItemLeft" align="right" valign="top"><a id="a4bd39ee023bfb2f332c13cbf4d6e6585" name="a4bd39ee023bfb2f332c13cbf4d6e6585"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>FBinary</b> (const std::string filepath)</td></tr>
-<tr class="memdesc:a4bd39ee023bfb2f332c13cbf4d6e6585"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
-<tr class="separator:a4bd39ee023bfb2f332c13cbf4d6e6585"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f27987c974b779e9263725ce9daf367" id="r_a5f27987c974b779e9263725ce9daf367"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f27987c974b779e9263725ce9daf367">loadFile</a> (std::string filepath)</td></tr>
-<tr class="memdesc:a5f27987c974b779e9263725ce9daf367"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load data from the file.  <br /></td></tr>
-<tr class="separator:a5f27987c974b779e9263725ce9daf367"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab929089ebc4541031c0e7f4a2f7f38ed" id="r_ab929089ebc4541031c0e7f4a2f7f38ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab929089ebc4541031c0e7f4a2f7f38ed">setData</a> (std::vector&lt; uint8_t &gt; data)</td></tr>
-<tr class="memdesc:ab929089ebc4541031c0e7f4a2f7f38ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store the binary data.  <br /></td></tr>
-<tr class="separator:ab929089ebc4541031c0e7f4a2f7f38ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31c2195afeb92a08cf566d22dec2ce66" id="r_a31c2195afeb92a08cf566d22dec2ce66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31c2195afeb92a08cf566d22dec2ce66">setByteIndex</a> (uint32_t idx)</td></tr>
-<tr class="memdesc:a31c2195afeb92a08cf566d22dec2ce66"><td class="mdescLeft">&#160;</td><td class="mdescRight">The index is setted to point the next data to read.  <br /></td></tr>
-<tr class="separator:a31c2195afeb92a08cf566d22dec2ce66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1739e4363ea4ed78ffa43ae80fce00f" id="r_af1739e4363ea4ed78ffa43ae80fce00f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1739e4363ea4ed78ffa43ae80fce00f">setBitIndex</a> (uint32_t idx)</td></tr>
-<tr class="memdesc:af1739e4363ea4ed78ffa43ae80fce00f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number is setted as location of the read next bit.  <br /></td></tr>
-<tr class="separator:af1739e4363ea4ed78ffa43ae80fce00f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c40b59442f29f164d89643affe1c512" id="r_a9c40b59442f29f164d89643affe1c512"><td class="memItemLeft" align="right" valign="top"><a id="a9c40b59442f29f164d89643affe1c512" name="a9c40b59442f29f164d89643affe1c512"></a>
+<tr class="memitem:a5861ca49ba96d2544fa11fb3bcc2b2a9" id="r_a5861ca49ba96d2544fa11fb3bcc2b2a9"><td class="memItemLeft" align="right" valign="top"><a id="a5861ca49ba96d2544fa11fb3bcc2b2a9" name="a5861ca49ba96d2544fa11fb3bcc2b2a9"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>OctBinary</b> ()</td></tr>
+<tr class="memdesc:a5861ca49ba96d2544fa11fb3bcc2b2a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
+<tr class="separator:a5861ca49ba96d2544fa11fb3bcc2b2a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd53bdd79cc2c16e0d557b5c4353da6e" id="r_afd53bdd79cc2c16e0d557b5c4353da6e"><td class="memItemLeft" align="right" valign="top"><a id="afd53bdd79cc2c16e0d557b5c4353da6e" name="afd53bdd79cc2c16e0d557b5c4353da6e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>OctBinary</b> (std::vector&lt; uint8_t &gt; data)</td></tr>
+<tr class="separator:afd53bdd79cc2c16e0d557b5c4353da6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b072624fbd129f1627954370797f1d7" id="r_a3b072624fbd129f1627954370797f1d7"><td class="memItemLeft" align="right" valign="top"><a id="a3b072624fbd129f1627954370797f1d7" name="a3b072624fbd129f1627954370797f1d7"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>OctBinary</b> (const std::string filepath)</td></tr>
+<tr class="separator:a3b072624fbd129f1627954370797f1d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2265905062e79673f3de011abf04577" id="r_ab2265905062e79673f3de011abf04577"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab2265905062e79673f3de011abf04577">loadFile</a> (std::string filepath)</td></tr>
+<tr class="memdesc:ab2265905062e79673f3de011abf04577"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load data from the file.  <br /></td></tr>
+<tr class="separator:ab2265905062e79673f3de011abf04577"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38e630f51ae8e1dd285a3f48cc1654ee" id="r_a38e630f51ae8e1dd285a3f48cc1654ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38e630f51ae8e1dd285a3f48cc1654ee">setData</a> (std::vector&lt; uint8_t &gt; data)</td></tr>
+<tr class="memdesc:a38e630f51ae8e1dd285a3f48cc1654ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store the binary data.  <br /></td></tr>
+<tr class="separator:a38e630f51ae8e1dd285a3f48cc1654ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae61b59efbfddb6911bc092b3925fdb29" id="r_ae61b59efbfddb6911bc092b3925fdb29"><td class="memItemLeft" align="right" valign="top"><a id="ae61b59efbfddb6911bc092b3925fdb29" name="ae61b59efbfddb6911bc092b3925fdb29"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setCurrentBuffer</b> ()</td></tr>
+<tr class="memdesc:ae61b59efbfddb6911bc092b3925fdb29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set current byte to buffer. <br /></td></tr>
+<tr class="separator:ae61b59efbfddb6911bc092b3925fdb29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf5c67d7f21186d519e8d4c3f7aed5a1" id="r_acf5c67d7f21186d519e8d4c3f7aed5a1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf5c67d7f21186d519e8d4c3f7aed5a1">setByteIndex</a> (uint32_t idx)</td></tr>
+<tr class="memdesc:acf5c67d7f21186d519e8d4c3f7aed5a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The index is setted to point the next data to read.  <br /></td></tr>
+<tr class="separator:acf5c67d7f21186d519e8d4c3f7aed5a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac410d67dec0b340dc8fa026f4f951417" id="r_ac410d67dec0b340dc8fa026f4f951417"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac410d67dec0b340dc8fa026f4f951417">setBitIndex</a> (uint32_t idx)</td></tr>
+<tr class="memdesc:ac410d67dec0b340dc8fa026f4f951417"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number is setted as location of the read next bit.  <br /></td></tr>
+<tr class="separator:ac410d67dec0b340dc8fa026f4f951417"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba12125f5f82a9ff687af1b8522a7c25" id="r_aba12125f5f82a9ff687af1b8522a7c25"><td class="memItemLeft" align="right" valign="top"><a id="aba12125f5f82a9ff687af1b8522a7c25" name="aba12125f5f82a9ff687af1b8522a7c25"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setNextIndex</b> ()</td></tr>
-<tr class="memdesc:a9c40b59442f29f164d89643affe1c512"><td class="mdescLeft">&#160;</td><td class="mdescRight">The index is incremented by one. <br /></td></tr>
-<tr class="separator:a9c40b59442f29f164d89643affe1c512"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3a39c3b60800e0c401030b76f58a295" id="r_af3a39c3b60800e0c401030b76f58a295"><td class="memItemLeft" align="right" valign="top"><a id="af3a39c3b60800e0c401030b76f58a295" name="af3a39c3b60800e0c401030b76f58a295"></a>
+<tr class="memdesc:aba12125f5f82a9ff687af1b8522a7c25"><td class="mdescLeft">&#160;</td><td class="mdescRight">The index is incremented by one. <br /></td></tr>
+<tr class="separator:aba12125f5f82a9ff687af1b8522a7c25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8d9d5d744ca79ed8d47d428d787ff0c" id="r_ae8d9d5d744ca79ed8d47d428d787ff0c"><td class="memItemLeft" align="right" valign="top"><a id="ae8d9d5d744ca79ed8d47d428d787ff0c" name="ae8d9d5d744ca79ed8d47d428d787ff0c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setNextBit</b> ()</td></tr>
-<tr class="memdesc:af3a39c3b60800e0c401030b76f58a295"><td class="mdescLeft">&#160;</td><td class="mdescRight">The bit index is incremented by one. <br /></td></tr>
-<tr class="separator:af3a39c3b60800e0c401030b76f58a295"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac96dafd01bf967ed53331cd7e54a9be9" id="r_ac96dafd01bf967ed53331cd7e54a9be9"><td class="memItemLeft" align="right" valign="top">std::vector&lt; uint8_t &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac96dafd01bf967ed53331cd7e54a9be9">getDataAdr</a> ()</td></tr>
-<tr class="memdesc:ac96dafd01bf967ed53331cd7e54a9be9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function return the adress of the binary data.  <br /></td></tr>
-<tr class="separator:ac96dafd01bf967ed53331cd7e54a9be9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50a0bb45b2900345034541ade73a6758" id="r_a50a0bb45b2900345034541ade73a6758"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50a0bb45b2900345034541ade73a6758">readBit</a> (uint8_t *out, size_t size, bool lsb=false, bool isInt=false)</td></tr>
-<tr class="memdesc:a50a0bb45b2900345034541ade73a6758"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function return the current bit as pointer.  <br /></td></tr>
-<tr class="separator:a50a0bb45b2900345034541ade73a6758"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68d87fd5b918986bca67cf9542c2dc1e" id="r_a68d87fd5b918986bca67cf9542c2dc1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a68d87fd5b918986bca67cf9542c2dc1e">readBits</a> (uint32_t nbit, uint8_t *out, size_t size, bool reverse=false, bool lsb=false, bool isInt=false)</td></tr>
-<tr class="memdesc:a68d87fd5b918986bca67cf9542c2dc1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function return the specified number bits from current bit index as pointer.  <br /></td></tr>
-<tr class="separator:a68d87fd5b918986bca67cf9542c2dc1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa14e038925731b8fb043e42807d35462" id="r_aa14e038925731b8fb043e42807d35462"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa14e038925731b8fb043e42807d35462">readByte</a> (uint8_t *out, size_t size, bool reverse=false, bool lsb=false, bool isInt=false)</td></tr>
-<tr class="memdesc:aa14e038925731b8fb043e42807d35462"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function return the current byte as pointer.  <br /></td></tr>
-<tr class="separator:aa14e038925731b8fb043e42807d35462"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3f0b1e5a442b7880caa08375a6e51f1" id="r_ae3f0b1e5a442b7880caa08375a6e51f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3f0b1e5a442b7880caa08375a6e51f1">readBytes</a> (uint32_t nbyte, uint8_t *out, size_t size, bool reverse=false, bool lsb=false, bool isInt=false)</td></tr>
-<tr class="memdesc:ae3f0b1e5a442b7880caa08375a6e51f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function return the specified number bytes from current index as pointer.  <br /></td></tr>
-<tr class="separator:ae3f0b1e5a442b7880caa08375a6e51f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c2a8920fbd28ca09a40d879171af17c" id="r_a0c2a8920fbd28ca09a40d879171af17c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c2a8920fbd28ca09a40d879171af17c">writeByte</a> (uint32_t idx, uint8_t data)</td></tr>
-<tr class="memdesc:a0c2a8920fbd28ca09a40d879171af17c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function write the byte to the index of data.  <br /></td></tr>
-<tr class="separator:a0c2a8920fbd28ca09a40d879171af17c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54284b4047aaa2adfdd5191d71e7642f" id="r_a54284b4047aaa2adfdd5191d71e7642f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a54284b4047aaa2adfdd5191d71e7642f">writeBytes</a> (uint32_t idx, uint32_t nbyte, std::vector&lt; uint8_t &gt; data)</td></tr>
-<tr class="memdesc:a54284b4047aaa2adfdd5191d71e7642f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function write the bytes to the index of data.  <br /></td></tr>
-<tr class="separator:a54284b4047aaa2adfdd5191d71e7642f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95ec9ff95903d6e3a96232da71c8f804" id="r_a95ec9ff95903d6e3a96232da71c8f804"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a95ec9ff95903d6e3a96232da71c8f804">printBit</a> (bool lsb=false)</td></tr>
-<tr class="memdesc:a95ec9ff95903d6e3a96232da71c8f804"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function print the current bit to standard output.  <br /></td></tr>
-<tr class="separator:a95ec9ff95903d6e3a96232da71c8f804"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2083123c744ab8253cf0ae9f6c1bc0f2" id="r_a2083123c744ab8253cf0ae9f6c1bc0f2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2083123c744ab8253cf0ae9f6c1bc0f2">eod</a> ()</td></tr>
-<tr class="memdesc:a2083123c744ab8253cf0ae9f6c1bc0f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function return whether the current index is end of the data.  <br /></td></tr>
-<tr class="separator:a2083123c744ab8253cf0ae9f6c1bc0f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memdesc:ae8d9d5d744ca79ed8d47d428d787ff0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The bit index is incremented by one. <br /></td></tr>
+<tr class="separator:ae8d9d5d744ca79ed8d47d428d787ff0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4359af93fe2807f745f88dcb11b090f" id="r_aa4359af93fe2807f745f88dcb11b090f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; uint8_t &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4359af93fe2807f745f88dcb11b090f">getDataAdr</a> ()</td></tr>
+<tr class="memdesc:aa4359af93fe2807f745f88dcb11b090f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function return the adress of the binary data.  <br /></td></tr>
+<tr class="separator:aa4359af93fe2807f745f88dcb11b090f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ade19cc117ea0992a74558c348ae13e" id="r_a0ade19cc117ea0992a74558c348ae13e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ade19cc117ea0992a74558c348ae13e">readBit</a> (uint8_t *out, size_t size, bool lsb=false, bool isInt=false)</td></tr>
+<tr class="memdesc:a0ade19cc117ea0992a74558c348ae13e"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function return the current bit as pointer.  <br /></td></tr>
+<tr class="separator:a0ade19cc117ea0992a74558c348ae13e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86b9fda427d2e7a30fde11f6bce68918" id="r_a86b9fda427d2e7a30fde11f6bce68918"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86b9fda427d2e7a30fde11f6bce68918">readBits</a> (uint32_t nbit, uint8_t *out, size_t size, bool reverse=false, bool lsb=false, bool isInt=false)</td></tr>
+<tr class="memdesc:a86b9fda427d2e7a30fde11f6bce68918"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function return the specified number bits from current bit index as pointer.  <br /></td></tr>
+<tr class="separator:a86b9fda427d2e7a30fde11f6bce68918"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a296e9387f00d59d5428d1168e3fe3e" id="r_a5a296e9387f00d59d5428d1168e3fe3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a296e9387f00d59d5428d1168e3fe3e">readByte</a> (uint8_t *out, size_t size, bool reverse=false, bool lsb=false, bool isInt=false)</td></tr>
+<tr class="memdesc:a5a296e9387f00d59d5428d1168e3fe3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function return the current byte as pointer.  <br /></td></tr>
+<tr class="separator:a5a296e9387f00d59d5428d1168e3fe3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e9b3ebdc1e5aa1a3b2d4dbe54e562c0" id="r_a9e9b3ebdc1e5aa1a3b2d4dbe54e562c0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e9b3ebdc1e5aa1a3b2d4dbe54e562c0">readBytes</a> (uint32_t nbyte, uint8_t *out, size_t size, bool reverse=false, bool lsb=false, bool isInt=false)</td></tr>
+<tr class="memdesc:a9e9b3ebdc1e5aa1a3b2d4dbe54e562c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function return the specified number bytes from current index as pointer.  <br /></td></tr>
+<tr class="separator:a9e9b3ebdc1e5aa1a3b2d4dbe54e562c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00c5043059c50087bca58b4da8eb7607" id="r_a00c5043059c50087bca58b4da8eb7607"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00c5043059c50087bca58b4da8eb7607">writeByte</a> (uint32_t idx, uint8_t data)</td></tr>
+<tr class="memdesc:a00c5043059c50087bca58b4da8eb7607"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function write the byte to the index of data.  <br /></td></tr>
+<tr class="separator:a00c5043059c50087bca58b4da8eb7607"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7d0e4b57a4dcdd7129fe0ecdf3843d8" id="r_ad7d0e4b57a4dcdd7129fe0ecdf3843d8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad7d0e4b57a4dcdd7129fe0ecdf3843d8">writeBytes</a> (uint32_t idx, uint32_t nbyte, std::vector&lt; uint8_t &gt; data)</td></tr>
+<tr class="memdesc:ad7d0e4b57a4dcdd7129fe0ecdf3843d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function write the bytes to the index of data.  <br /></td></tr>
+<tr class="separator:ad7d0e4b57a4dcdd7129fe0ecdf3843d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d82226cc42bc53802a6c1fa40fa35c7" id="r_a5d82226cc42bc53802a6c1fa40fa35c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d82226cc42bc53802a6c1fa40fa35c7">printBit</a> (bool lsb=false)</td></tr>
+<tr class="memdesc:a5d82226cc42bc53802a6c1fa40fa35c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function print the current bit to standard output.  <br /></td></tr>
+<tr class="separator:a5d82226cc42bc53802a6c1fa40fa35c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c9128984ec914de0761c77423fe2483" id="r_a3c9128984ec914de0761c77423fe2483"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3c9128984ec914de0761c77423fe2483">eod</a> ()</td></tr>
+<tr class="memdesc:a3c9128984ec914de0761c77423fe2483"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function return whether the current index is end of the data.  <br /></td></tr>
+<tr class="separator:a3c9128984ec914de0761c77423fe2483"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a2083123c744ab8253cf0ae9f6c1bc0f2" name="a2083123c744ab8253cf0ae9f6c1bc0f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2083123c744ab8253cf0ae9f6c1bc0f2">&#9670;&#160;</a></span>eod()</h2>
+<a id="a3c9128984ec914de0761c77423fe2483" name="a3c9128984ec914de0761c77423fe2483"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c9128984ec914de0761c77423fe2483">&#9670;&#160;</a></span>eod()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool FBinary::eod </td>
+          <td class="memname">bool OctBinary::eod </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
@@ -161,14 +163,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setNextBit</b> ()</td
 
 </div>
 </div>
-<a id="ac96dafd01bf967ed53331cd7e54a9be9" name="ac96dafd01bf967ed53331cd7e54a9be9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac96dafd01bf967ed53331cd7e54a9be9">&#9670;&#160;</a></span>getDataAdr()</h2>
+<a id="aa4359af93fe2807f745f88dcb11b090f" name="aa4359af93fe2807f745f88dcb11b090f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4359af93fe2807f745f88dcb11b090f">&#9670;&#160;</a></span>getDataAdr()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">vector&lt; uint8_t &gt; * FBinary::getDataAdr </td>
+          <td class="memname">vector&lt; uint8_t &gt; * OctBinary::getDataAdr </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"></span></td><td>)</td>
           <td></td>
@@ -181,14 +183,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setNextBit</b> ()</td
 
 </div>
 </div>
-<a id="a5f27987c974b779e9263725ce9daf367" name="a5f27987c974b779e9263725ce9daf367"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f27987c974b779e9263725ce9daf367">&#9670;&#160;</a></span>loadFile()</h2>
+<a id="ab2265905062e79673f3de011abf04577" name="ab2265905062e79673f3de011abf04577"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2265905062e79673f3de011abf04577">&#9670;&#160;</a></span>loadFile()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool FBinary::loadFile </td>
+          <td class="memname">bool OctBinary::loadFile </td>
           <td>(</td>
           <td class="paramtype">std::string</td>          <td class="paramname"><span class="paramname"><em>filepath</em></span></td><td>)</td>
           <td></td>
@@ -206,14 +208,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setNextBit</b> ()</td
 
 </div>
 </div>
-<a id="a95ec9ff95903d6e3a96232da71c8f804" name="a95ec9ff95903d6e3a96232da71c8f804"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95ec9ff95903d6e3a96232da71c8f804">&#9670;&#160;</a></span>printBit()</h2>
+<a id="a5d82226cc42bc53802a6c1fa40fa35c7" name="a5d82226cc42bc53802a6c1fa40fa35c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d82226cc42bc53802a6c1fa40fa35c7">&#9670;&#160;</a></span>printBit()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void FBinary::printBit </td>
+          <td class="memname">void OctBinary::printBit </td>
           <td>(</td>
           <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>lsb</em><span class="paramdefsep"> = </span><span class="paramdefval">false</span></span></td><td>)</td>
           <td></td>
@@ -231,14 +233,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setNextBit</b> ()</td
 
 </div>
 </div>
-<a id="a50a0bb45b2900345034541ade73a6758" name="a50a0bb45b2900345034541ade73a6758"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50a0bb45b2900345034541ade73a6758">&#9670;&#160;</a></span>readBit()</h2>
+<a id="a0ade19cc117ea0992a74558c348ae13e" name="a0ade19cc117ea0992a74558c348ae13e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ade19cc117ea0992a74558c348ae13e">&#9670;&#160;</a></span>readBit()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void FBinary::readBit </td>
+          <td class="memname">void OctBinary::readBit </td>
           <td>(</td>
           <td class="paramtype">uint8_t *</td>          <td class="paramname"><span class="paramname"><em>out</em>, </span></td>
         </tr>
@@ -273,14 +275,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setNextBit</b> ()</td
 
 </div>
 </div>
-<a id="a68d87fd5b918986bca67cf9542c2dc1e" name="a68d87fd5b918986bca67cf9542c2dc1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68d87fd5b918986bca67cf9542c2dc1e">&#9670;&#160;</a></span>readBits()</h2>
+<a id="a86b9fda427d2e7a30fde11f6bce68918" name="a86b9fda427d2e7a30fde11f6bce68918"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86b9fda427d2e7a30fde11f6bce68918">&#9670;&#160;</a></span>readBits()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void FBinary::readBits </td>
+          <td class="memname">void OctBinary::readBits </td>
           <td>(</td>
           <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>nbit</em>, </span></td>
         </tr>
@@ -326,14 +328,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setNextBit</b> ()</td
 
 </div>
 </div>
-<a id="aa14e038925731b8fb043e42807d35462" name="aa14e038925731b8fb043e42807d35462"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa14e038925731b8fb043e42807d35462">&#9670;&#160;</a></span>readByte()</h2>
+<a id="a5a296e9387f00d59d5428d1168e3fe3e" name="a5a296e9387f00d59d5428d1168e3fe3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a296e9387f00d59d5428d1168e3fe3e">&#9670;&#160;</a></span>readByte()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void FBinary::readByte </td>
+          <td class="memname">void OctBinary::readByte </td>
           <td>(</td>
           <td class="paramtype">uint8_t *</td>          <td class="paramname"><span class="paramname"><em>out</em>, </span></td>
         </tr>
@@ -374,14 +376,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setNextBit</b> ()</td
 
 </div>
 </div>
-<a id="ae3f0b1e5a442b7880caa08375a6e51f1" name="ae3f0b1e5a442b7880caa08375a6e51f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3f0b1e5a442b7880caa08375a6e51f1">&#9670;&#160;</a></span>readBytes()</h2>
+<a id="a9e9b3ebdc1e5aa1a3b2d4dbe54e562c0" name="a9e9b3ebdc1e5aa1a3b2d4dbe54e562c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e9b3ebdc1e5aa1a3b2d4dbe54e562c0">&#9670;&#160;</a></span>readBytes()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void FBinary::readBytes </td>
+          <td class="memname">void OctBinary::readBytes </td>
           <td>(</td>
           <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>nbyte</em>, </span></td>
         </tr>
@@ -428,16 +430,16 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setNextBit</b> ()</td
 
 </div>
 </div>
-<a id="af1739e4363ea4ed78ffa43ae80fce00f" name="af1739e4363ea4ed78ffa43ae80fce00f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1739e4363ea4ed78ffa43ae80fce00f">&#9670;&#160;</a></span>setBitIndex()</h2>
+<a id="ac410d67dec0b340dc8fa026f4f951417" name="ac410d67dec0b340dc8fa026f4f951417"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac410d67dec0b340dc8fa026f4f951417">&#9670;&#160;</a></span>setBitIndex()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void FBinary::setBitIndex </td>
+          <td class="memname">void OctBinary::setBitIndex </td>
           <td>(</td>
-          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>idx</em></span></td><td>)</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>nbits</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -453,14 +455,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setNextBit</b> ()</td
 
 </div>
 </div>
-<a id="a31c2195afeb92a08cf566d22dec2ce66" name="a31c2195afeb92a08cf566d22dec2ce66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31c2195afeb92a08cf566d22dec2ce66">&#9670;&#160;</a></span>setByteIndex()</h2>
+<a id="acf5c67d7f21186d519e8d4c3f7aed5a1" name="acf5c67d7f21186d519e8d4c3f7aed5a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf5c67d7f21186d519e8d4c3f7aed5a1">&#9670;&#160;</a></span>setByteIndex()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void FBinary::setByteIndex </td>
+          <td class="memname">void OctBinary::setByteIndex </td>
           <td>(</td>
           <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>idx</em></span></td><td>)</td>
           <td></td>
@@ -478,14 +480,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setNextBit</b> ()</td
 
 </div>
 </div>
-<a id="ab929089ebc4541031c0e7f4a2f7f38ed" name="ab929089ebc4541031c0e7f4a2f7f38ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab929089ebc4541031c0e7f4a2f7f38ed">&#9670;&#160;</a></span>setData()</h2>
+<a id="a38e630f51ae8e1dd285a3f48cc1654ee" name="a38e630f51ae8e1dd285a3f48cc1654ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38e630f51ae8e1dd285a3f48cc1654ee">&#9670;&#160;</a></span>setData()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void FBinary::setData </td>
+          <td class="memname">void OctBinary::setData </td>
           <td>(</td>
           <td class="paramtype">std::vector&lt; uint8_t &gt;</td>          <td class="paramname"><span class="paramname"><em>data</em></span></td><td>)</td>
           <td></td>
@@ -503,14 +505,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setNextBit</b> ()</td
 
 </div>
 </div>
-<a id="a0c2a8920fbd28ca09a40d879171af17c" name="a0c2a8920fbd28ca09a40d879171af17c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c2a8920fbd28ca09a40d879171af17c">&#9670;&#160;</a></span>writeByte()</h2>
+<a id="a00c5043059c50087bca58b4da8eb7607" name="a00c5043059c50087bca58b4da8eb7607"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00c5043059c50087bca58b4da8eb7607">&#9670;&#160;</a></span>writeByte()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void FBinary::writeByte </td>
+          <td class="memname">void OctBinary::writeByte </td>
           <td>(</td>
           <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>idx</em>, </span></td>
         </tr>
@@ -533,14 +535,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setNextBit</b> ()</td
 
 </div>
 </div>
-<a id="a54284b4047aaa2adfdd5191d71e7642f" name="a54284b4047aaa2adfdd5191d71e7642f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54284b4047aaa2adfdd5191d71e7642f">&#9670;&#160;</a></span>writeBytes()</h2>
+<a id="ad7d0e4b57a4dcdd7129fe0ecdf3843d8" name="ad7d0e4b57a4dcdd7129fe0ecdf3843d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7d0e4b57a4dcdd7129fe0ecdf3843d8">&#9670;&#160;</a></span>writeBytes()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool FBinary::writeBytes </td>
+          <td class="memname">bool OctBinary::writeBytes </td>
           <td>(</td>
           <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>idx</em>, </span></td>
         </tr>
@@ -571,8 +573,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setNextBit</b> ()</td
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="_f_binary_8hpp_source.html">FBinary.hpp</a></li>
-<li><b>FBinary.cpp</b></li>
+<li>includes/<a class="el" href="_oct_binary_8hpp_source.html">OctBinary.hpp</a></li>
+<li>src/<b>OctBinary.cpp</b></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fbinary_0',['FBinary',['../class_f_binary.html',1,'']]]
+  ['getdataadr_0',['getDataAdr',['../class_oct_binary.html#aa4359af93fe2807f745f88dcb11b090f',1,'OctBinary']]]
 ];
